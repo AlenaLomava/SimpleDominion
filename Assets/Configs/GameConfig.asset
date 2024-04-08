@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaec4d25fa857c04bb0a38853b2bd396, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  _worldConfig:
+    _fieldPresets:
+    - _size: 10
+      _mountCellsNumber: 7
+      _waterCellsNumber: 14
+      _settlementsNumber: 3
+    - _size: 20
+      _mountCellsNumber: 28
+      _waterCellsNumber: 56
+      _settlementsNumber: 6
+    - _size: 30
+      _mountCellsNumber: 63
+      _waterCellsNumber: 126
+      _settlementsNumber: 12
+    _spaceBetween: 2.2
+    _grassPrefab: {fileID: 8576582665664737337, guid: 9dc97729c2eefb041be7bee73abf679d, type: 3}
+    _waterPrefab: {fileID: 807766784010779079, guid: d011af2fb384bd148be285b52313377e, type: 3}
+    _mountPrefab: {fileID: 4188276383886570123, guid: 2657b6048608f7f41890079518b4ff43, type: 3}
+    _settlementPrefab: {fileID: 1761768337930079548, guid: 68dae257013255742b5ac9b212842da5, type: 3}
+  _unitsConfig:
+    _playerUnitPrefab: {fileID: 4106732078413511263, guid: f011b0b828ee1544b82aae1dea55b119, type: 3}
+    _enemyUnitPrefab: {fileID: 4036047574951251812, guid: ec66479e25e25484d8792c4b2dd3bb56, type: 3}
+    _walkDistance: 2
+    _health: 2
+    _actionsCount: 1
+    _visibilityRange: 3
